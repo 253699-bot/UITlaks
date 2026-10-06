@@ -1,0 +1,274 @@
+---
+title: "UI Talks"
+---
+
+```{=html}
+<main class="page-content home-page">
+  <div class="meta-line">
+    <span class="meta-edition">• EDICIÓN N.º 48 — SEPTIEMBRE 2025</span>
+    <span>• Curaduría Editorial Independiente</span>
+    <span>◷ Actualizado hoy</span>
+  </div>
+
+  <section class="hero-card">
+    <div class="hero-kicker">DESTACADO DEL MES · UI TALKS MANIFIESTO</div>
+    <h1>Ideas, tendencias y recursos para crear mejores experiencias digitales.</h1>
+    <p class="hero-description">Artículos en profundidad, guías de diseño de interfaz, arquitectura de sistemas y reflexión pausada sobre el futuro del diseño digital.</p>
+    <a class="primary-button" href="articulos.html">Explorar artículos →</a>
+    <div class="read-time">◷ LECTURA ESTIMADA TOTAL: 36 MIN</div>
+
+    <div class="design-system-card" aria-label="Resumen del sistema de diseño">
+      <div class="code-header">
+        <span class="dot dot-orange"></span>
+        <span class="dot dot-gray"></span>
+        <span class="dot dot-muted"></span>
+        <span class="file-name">tokens.config.json</span>
+        <span class="file-meta">Figma DS v4.2</span>
+      </div>
+      <div class="token-list">
+        <div class="token-row"><span>"primitive.color.espresso"</span><span>#3B2C24</span></div>
+        <div class="token-row"><span>"primary.container.canvas"</span><span>#D9CFE3</span></div>
+        <div class="token-row"><span>"semantic.surface.paper"</span><span>#FCF9F3</span></div>
+        <div class="token-note surface-note"><span class="swatch"></span>Natural Alabaster Background</div>
+      </div>
+      <div class="metric-grid">
+        <div class="metric-box"><span class="metric-label">RATIO</span><strong>4.5:1</strong><small>AAA</small></div>
+        <div class="metric-box"><span class="metric-label">BASE GRID</span><strong>8pt Soft</strong></div>
+        <div class="metric-box"><span class="metric-label">VARIABLES</span><strong>142</strong><small>Activas</small></div>
+      </div>
+      <div class="type-box">
+        <span class="type-mark">Aa</span>
+        <span><strong>Inter Variable</strong><small>Optical Size 14–48pt</small></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-card" aria-labelledby="home-newsletter-title">
+    <div class="newsletter-heading">
+      <span class="newsletter-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><rect x="3.4" y="5.7" width="17.2" height="12.6" rx="2.6" fill="none" stroke="currentColor" stroke-width="1.7"></rect><path d="m5.2 8.2 6.8 5.2 6.8-5.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </span>
+      <h2 id="home-newsletter-title">UI Talks Dispatch</h2>
+    </div>
+    <p>Reflexiones semanales sobre arquitectura de información, diseño de interacción y tecnología.</p>
+    <form class="newsletter-form" novalidate>
+      <label class="visually-hidden" for="home-newsletter-email">Tu correo electrónico</label>
+      <input id="home-newsletter-email" type="email" name="email" placeholder="tu@correo.com" autocomplete="email" required>
+      <button type="submit">Suscribirme</button>
+    </form>
+    <p class="newsletter-message" role="status" aria-live="polite"></p>
+  </section>
+
+  <section class="home-articles" aria-label="Artículos destacados">
+    <div class="home-section-heading">
+      <span class="eyebrow">LECTURAS RECIENTES</span>
+      <h2>Ideas para llevar al diseño</h2>
+      <a href="articulos.html">Ver todos los artículos →</a>
+    </div>
+    <div class="home-article-grid">
+      <article class="article-card searchable-card">
+        <div class="article-visual home-illustration home-illustration--ai" role="img" aria-label="Ilustración editorial de una interfaz de inteligencia artificial con distintos estados">
+          <div class="home-art-window" aria-hidden="true">
+            <div class="home-art-toolbar"><i></i><i></i><i></i><span>assistant.ui</span></div>
+            <div class="home-art-ai-label">RESPUESTA EN PROGRESO</div>
+            <div class="home-art-ai-message">Puedo ayudarte a explorar estas opciones.</div>
+            <div class="home-art-ai-pills"><i></i><i></i><i></i></div>
+          </div>
+          <span class="home-art-index">AI / 01</span>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">DISEÑO UI</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h3>Diseño para IA: Patrones y estados para interfaces</h3>
+          <p>Manejo de la incertidumbre, explicabilidad y respuestas en experiencias impulsadas por IA.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>6 min de lectura</small></span></div>
+            <a class="read-link" href="articulos.html">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card searchable-card">
+        <div class="article-visual home-illustration home-illustration--tokens" role="img" aria-label="Ilustración de tokens de color conectando diseño y código">
+          <div class="home-art-token-card" aria-hidden="true">
+            <span>DESIGN TOKENS</span>
+            <strong>surface.canvas</strong>
+            <i></i><i></i><i></i>
+            <small>Figma → CSS</small>
+          </div>
+          <span class="home-art-index">DS / 04</span>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">SISTEMAS DE DISEÑO</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h3>Arquitectura de tokens: de Figma a código</h3>
+          <p>Cómo organizar variables y tokens para construir sistemas de diseño escalables.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">MC</span><span><strong>Marcos Casares</strong><small>8 min de lectura</small></span></div>
+            <a class="read-link" href="articulos.html#detail-articulo-tokens">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card searchable-card">
+        <div class="article-visual home-illustration home-illustration--research" role="img" aria-label="Ilustración de notas y hallazgos de entrevistas de investigación">
+          <div class="home-art-notes" aria-hidden="true">
+            <span>ESCUCHAR</span>
+            <strong>¿Qué necesitas<br>resolver hoy?</strong>
+            <i></i><i></i>
+          </div>
+          <div class="home-art-note-small" aria-hidden="true">HALLAZGO<br><strong>03</strong></div>
+          <span class="home-art-index">UX / 02</span>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">UX RESEARCH</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h3>Investigar antes de diseñar</h3>
+          <p>Métodos sencillos para entender las necesidades reales de los usuarios.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>7 min de lectura</small></span></div>
+            <a class="read-link" href="articulos.html#detail-investigar-antes">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card searchable-card">
+        <div class="article-visual home-illustration home-illustration--type" role="img" aria-label="Ilustración tipográfica con una escala de tamaños y jerarquías">
+          <div class="home-art-type-sheet" aria-hidden="true">
+            <span>ESCALA TIPOGRÁFICA</span>
+            <strong>Aa</strong>
+            <em>Ritmo y jerarquía</em>
+            <i></i><i></i><i></i>
+          </div>
+          <span class="home-art-index">TYPE / 03</span>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">DISEÑO UI</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h3>Ritmo visual y escala tipográfica</h3>
+          <p>Cómo utilizar tamaños, espacios y jerarquías para crear interfaces más claras.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>6 min de lectura</small></span></div>
+            <a class="read-link" href="articulos.html#detail-buena-tipografia">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card searchable-card">
+        <div class="article-visual home-illustration home-illustration--editorial" role="img" aria-label="Ilustración de una página de revista editorial digital">
+          <div class="home-art-editorial-sheet" aria-hidden="true">
+            <span>PUBLICACIÓN · N.º 08</span>
+            <strong>Diseñar<br>para leer.</strong>
+            <i></i>
+            <small>CULTURA DIGITAL</small>
+          </div>
+          <span class="home-art-index">ED / 08</span>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">TENDENCIAS</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h3>El regreso del diseño editorial digital</h3>
+          <p>Por qué las interfaces están recuperando composiciones inspiradas en revistas.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>5 min de lectura</small></span></div>
+            <a class="read-link" href="articulos.html#detail-interfaces-editoriales">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="article-card searchable-card">
+        <div class="article-visual home-illustration home-illustration--accessibility" role="img" aria-label="Ilustración de pruebas de contraste y componentes accesibles">
+          <div class="home-art-contrast" aria-hidden="true">
+            <div><strong>Aa</strong><span>12.6 : 1</span></div>
+            <div><strong>Ag</strong><span>7.1 : 1</span></div>
+            <i></i>
+          </div>
+          <span class="home-art-index">A11Y / 08</span>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">ACCESIBILIDAD</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h3>Los errores más comunes al implementar accesibilidad WCAG</h3>
+          <p>Pequeños detalles que pueden mejorar considerablemente la experiencia de más usuarios.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>8 min de lectura</small></span></div>
+            <a class="read-link" href="articulos.html#detail-color-contraste">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-editorial-grid" aria-label="Más ideas para explorar">
+    <section class="most-read-card" aria-labelledby="most-read-title">
+      <div class="eyebrow" id="most-read-title">◷ MÁS LEÍDOS DEL MES</div>
+      <ol class="most-read-list">
+        <li><span>01</span><a href="articulos.html#detail-articulo-tokens">Arquitectura de tokens semánticos: de Figma a CSS variables</a><small>8 min</small></li>
+        <li><span>02</span><a href="articulos.html#detail-color-contraste">Los errores más comunes al implementar accesibilidad WCAG</a><small>8 min</small></li>
+        <li><span>03</span><a href="articulos.html#detail-buena-tipografia">Ritmo visual y escala tipográfica en productos responsive</a><small>6 min</small></li>
+      </ol>
+    </section>
+
+    <section class="topics-card" aria-labelledby="topics-title">
+      <div class="eyebrow" id="topics-title">EXPLORAR TEMAS</div>
+      <div class="topic-pills">
+        <a href="articulos.html">Sistemas de Diseño</a>
+        <a href="articulos.html">Tipografía</a>
+        <a href="articulos.html">Interacción</a>
+        <a href="articulos.html">Tokens</a>
+        <a href="articulos.html">Editorial Web</a>
+        <a href="articulos.html">Figma</a>
+        <a href="articulos.html">AI UX</a>
+      </div>
+    </section>
+
+    <blockquote class="editorial-quote">
+      <span aria-hidden="true">“</span>
+      <p>El buen diseño no solo se ve, se siente.</p>
+      <cite>UI TALKS · NOTAS SOBRE DISEÑO</cite>
+    </blockquote>
+
+    <section class="compendium-card" aria-labelledby="compendium-title">
+      <div>
+        <div class="eyebrow">UNA RUTA PARA EMPEZAR</div>
+        <h2 id="compendium-title">¿Nuevo en UI Talks?</h2>
+        <p>Revisa nuestro compendio curado con los artículos fundamentales de arquitectura y diseño.</p>
+      </div>
+      <a class="compendium-link" href="articulos.html">Ver compendio inicial →</a>
+    </section>
+  </section>
+
+  <footer class="site-footer">
+    <span>UI Talks © 2025 Publicación Editorial Independiente.</span>
+    <nav aria-label="Enlaces del pie de página">
+      <a href="mailto:contacto@uitalks.com?subject=Privacidad">Privacidad</a>
+      <a href="mailto:contacto@uitalks.com?subject=T%C3%A9rminos">Términos</a>
+      <a href="mailto:contacto@uitalks.com">Contacto</a>
+    </nav>
+  </footer>
+</main>
+```

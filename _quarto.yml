@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - scripts/main.js
+    - assets/favicon.svg
+
+website:
+  title: "UI Talks"
+  page-navigation: false
+  favicon: assets/favicon.svg
+
+lang: es
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    include-before-body: _includes/header.html
+    include-after-body: _includes/scripts.html
+    toc: false
+    smooth-scroll: true
+    anchor-sections: false
+    title-block-style: none
+    metadata:
+      description: "UI Talks: diseño de interfaces, sistemas de diseño y experiencias digitales."

@@ -1,0 +1,400 @@
+---
+title: "Artículos"
+---
+
+```{=html}
+<main class="page-content articles-page">
+  <div class="articles-inner">
+    <header class="archive-header" id="archivo-articulos">
+      <div class="eyebrow">• ARCHIVO EDITORIAL · 38 PUBLICACIONES DISPONIBLES</div>
+      <h1>Todos los Artículos</h1>
+      <p>Explora la colección completa de artículos, análisis, tutoriales prácticos y ensayos sobre diseño de interfaces y experiencia de usuario.</p>
+    </header>
+
+    <div class="filter-list" id="filtros-articulos" role="group" aria-label="Filtrar artículos por categoría">
+      <button class="filter-pill active" type="button" data-filter="all" aria-pressed="true">Todos 38</button>
+      <button class="filter-pill" type="button" data-filter="diseño ui" aria-pressed="false">Diseño UI</button>
+      <button class="filter-pill" type="button" data-filter="ux research" aria-pressed="false">UX Research</button>
+      <button class="filter-pill" type="button" data-filter="tendencias" aria-pressed="false">Tendencias</button>
+    </div>
+
+    <section class="article-list" id="lista-articulos" aria-label="Listado de artículos">
+      <article id="articulo-tokens" class="article-card article-card--featured searchable-card" data-category="diseño ui">
+        <div class="article-visual illustration illustration--tokens" role="img" aria-label="Ilustración editorial de una biblioteca de tokens de diseño">
+          <span class="featured-tag">DESTACADO</span>
+          <div class="art-canvas art-canvas--tokens" aria-hidden="true">
+            <div class="art-token-window">
+              <div class="art-window-bar"><i></i><i></i><i></i><span>tokens.config</span><b>DS / 04</b></div>
+              <div class="art-token-content">
+                <span class="art-overline">COLOR · PRIMITIVES</span>
+                <strong>Color palette</strong>
+                <div class="art-swatches"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="art-token-line"><span>surface.canvas</span><b>#F5F1EC</b></div>
+                <div class="art-token-line"><span>text.espresso</span><b>#2B211C</b></div>
+              </div>
+            </div>
+            <div class="art-floating-note">TOKENS<br><strong>v. 2.4</strong></div>
+            <div class="art-orbit art-orbit--one"></div>
+            <div class="art-orbit art-orbit--two"></div>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">SISTEMAS DE DISEÑO</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h2>Guía definitiva para documentar Tokens de Diseño en producción</h2>
+          <p>Estrategias escalables para sincronizar Figma, Style Dictionary y repositorios Git en equipos de producto.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">MC</span><span><strong>Marcos Casares</strong><small>14 oct · 9 min de lectura</small></span></div>
+            <a class="read-link" href="#detail-articulo-tokens">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article id="interfaces-simples" class="article-card searchable-card" data-category="diseño ui">
+        <div class="article-visual illustration illustration--interface" role="img" aria-label="Ilustración de una interfaz minimalista con jerarquía tipográfica">
+          <div class="art-canvas art-canvas--interface" aria-hidden="true">
+            <div class="art-browser"><div class="art-browser-bar"><i></i><i></i><i></i></div><div class="art-interface-layout"><span class="art-side-line"></span><div><span class="art-small-label">ESPACIO Y CLARIDAD</span><strong>Menos ruido.<br>Más intención.</strong><span class="art-cta"></span></div></div></div>
+            <span class="art-number">01—03</span>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">DISEÑO UI</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h2>Cómo crear interfaces que se sienten simples</h2>
+          <p>Principios prácticos para reducir el ruido visual y mejorar la jerarquía de una interfaz.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>08 oct · 7 min de lectura</small></span></div>
+            <a class="read-link" href="#detail-interfaces-simples">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article id="investigar-antes" class="article-card searchable-card" data-category="ux research">
+        <div class="article-visual illustration illustration--research" role="img" aria-label="Ilustración de notas y hallazgos de investigación de usuarios">
+          <div class="art-canvas art-canvas--research" aria-hidden="true">
+            <div class="art-note art-note--one"><span>ESCUCHAR</span><b>¿Qué te gustaría<br>poder hacer?</b><i></i></div>
+            <div class="art-note art-note--two"><span>HALLAZGO 03</span><b>Las personas buscan<br>más confianza.</b><i></i></div>
+            <div class="art-magnifier"></div><span class="art-research-dot"></span>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">UX RESEARCH</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h2>Investigar antes de diseñar: una guía práctica</h2>
+          <p>Métodos sencillos para conocer a los usuarios antes de tomar decisiones de diseño.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>02 oct · 8 min de lectura</small></span></div>
+            <a class="read-link" href="#detail-investigar-antes">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article id="interfaces-editoriales" class="article-card searchable-card" data-category="tendencias">
+        <div class="article-visual illustration illustration--editorial" role="img" aria-label="Ilustración de una composición editorial digital">
+          <div class="art-canvas art-canvas--editorial" aria-hidden="true">
+            <span class="art-editorial-index">N.º 07 — 2025</span>
+            <div class="art-editorial-title">La forma<br>de leer<br><em>cambia.</em></div>
+            <div class="art-editorial-block"></div><div class="art-editorial-caption">DISEÑO · CULTURA DIGITAL</div>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">TENDENCIAS</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h2>El regreso de las interfaces editoriales</h2>
+          <p>Por qué el diseño digital está recuperando composiciones inspiradas en revistas y publicaciones impresas.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>27 sep · 6 min de lectura</small></span></div>
+            <a class="read-link" href="#detail-interfaces-editoriales">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article id="color-contraste" class="article-card searchable-card" data-category="diseño ui">
+        <div class="article-visual illustration illustration--color" role="img" aria-label="Ilustración de muestras de color y contraste accesible">
+          <div class="art-canvas art-canvas--color" aria-hidden="true">
+            <div class="art-color-card art-color-card--dark"><span>Aa</span><small>CONTRASTE<br>12.6 : 1</small></div>
+            <div class="art-color-card art-color-card--light"><span>Ag</span><small>CONTRASTE<br>7.1 : 1</small></div>
+            <div class="art-color-wheel"><i></i><i></i><i></i><i></i></div>
+            <span class="art-color-note">COLOR<br>CON SENTIDO</span>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">DISEÑO UI</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h2>Color, contraste y accesibilidad</h2>
+          <p>Cómo elegir colores que mantengan una interfaz atractiva sin sacrificar legibilidad.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>20 sep · 5 min de lectura</small></span></div>
+            <a class="read-link" href="#detail-color-contraste">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article id="entrevista-usuario" class="article-card searchable-card" data-category="ux research">
+        <div class="article-visual illustration illustration--interview" role="img" aria-label="Ilustración de una entrevista con preguntas y notas">
+          <div class="art-canvas art-canvas--interview" aria-hidden="true">
+            <div class="art-interview-card"><span>GUÍA DE CAMPO · 04</span><strong>Cuéntame sobre<br>la última vez que...</strong><i></i><i></i><i></i></div>
+            <div class="art-interview-bubble">¿Y qué pasó<br>después?</div><span class="art-interview-stamp">LISTEN<br>FIRST</span>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">UX RESEARCH</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h2>Las preguntas correctas para una entrevista de usuario</h2>
+          <p>Una colección de preguntas para descubrir necesidades reales sin influir en las respuestas.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>13 sep · 6 min de lectura</small></span></div>
+            <a class="read-link" href="#detail-entrevista-usuario">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article id="minimalismo-simplicidad" class="article-card searchable-card" data-category="tendencias">
+        <div class="article-visual illustration illustration--minimal" role="img" aria-label="Ilustración geométrica que contrasta minimalismo y simplicidad">
+          <div class="art-canvas art-canvas--minimal" aria-hidden="true">
+            <div class="art-minimal-shape art-minimal-shape--circle"></div><div class="art-minimal-shape art-minimal-shape--square"></div>
+            <div class="art-minimal-copy"><span>MENOS, PERO MEJOR</span><strong>Minimalismo<br><em>≠</em> simplicidad</strong></div>
+            <span class="art-minimal-foot">UNA DISTINCIÓN NECESARIA</span>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">TENDENCIAS</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h2>¿Minimalismo o simplicidad?</h2>
+          <p>Dos conceptos que suelen confundirse y cómo aplicarlos correctamente en productos digitales.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>05 sep · 5 min de lectura</small></span></div>
+            <a class="read-link" href="#detail-minimalismo-simplicidad">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+
+      <article id="buena-tipografia" class="article-card searchable-card" data-category="diseño ui">
+        <div class="article-visual illustration illustration--type" role="img" aria-label="Ilustración tipográfica con muestras de serif y sans serif">
+          <div class="art-canvas art-canvas--type" aria-hidden="true">
+            <div class="art-type-specimen"><span>TIPOGRAFÍA · 01</span><strong>Aa</strong><em>Voz &amp; ritmo</em><i></i><i></i><i></i></div>
+            <div class="art-type-side"><span>DISPLAY</span><b>Gg</b><span>TEXT</span><strong>Inter</strong></div>
+            <span class="art-type-note">EL TONO<br>DE UNA INTERFAZ</span>
+          </div>
+        </div>
+        <div class="article-body">
+          <div class="article-card-top">
+            <span class="category-label">DISEÑO UI</span>
+            <button class="bookmark-button" type="button" aria-label="Guardar artículo" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.8h9.2a1.5 1.5 0 0 1 1.5 1.5v11l-6.2-4.4-6.2 4.4v-11a1.5 1.5 0 0 1 1.7-1.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path></svg>
+            </button>
+          </div>
+          <h2>El valor de una buena tipografía</h2>
+          <p>Cómo la elección tipográfica puede cambiar completamente la percepción de una interfaz.</p>
+          <div class="article-footer">
+            <div class="author-meta"><span class="avatar">AD</span><span><strong>Aíko Del Valle</strong><small>29 ago · 7 min de lectura</small></span></div>
+            <a class="read-link" href="#detail-buena-tipografia">Leer artículo →</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <p class="search-empty" role="status" aria-live="polite" hidden>No encontramos historias con esa búsqueda.</p>
+
+    <section class="article-detail-view" aria-label="Detalle del artículo" hidden>
+      <article class="article-detail" id="detail-articulo-tokens" data-source-card="articulo-tokens" hidden>
+        <a class="detail-back" href="#lista-articulos">← Volver a los artículos</a>
+        <div class="detail-image"></div>
+        <div class="detail-copy">
+          <div class="category-label">SISTEMAS DE DISEÑO</div>
+          <h1>Guía definitiva para documentar Tokens de Diseño en producción</h1>
+          <p class="detail-meta">Marcos Casares · 14 oct · 9 min de lectura</p>
+          <p class="detail-intro">Estrategias escalables para sincronizar Figma, Style Dictionary y repositorios Git en equipos de producto.</p>
+          <h2>Una fuente de verdad para el producto</h2>
+          <p>Los tokens de diseño convierten decisiones visuales en valores reutilizables: colores, espaciados, tipografías y radios dejan de estar dispersos entre archivos y componentes. Documentarlos bien permite que diseño y desarrollo hablen el mismo idioma.</p>
+          <p>El primer paso es acordar una estructura clara. Separa los valores base de los tokens semánticos y describe cuándo usar cada uno. Un nombre como <code>surface.canvas</code> comunica su propósito mejor que un valor aislado como <code>beige-100</code>.</p>
+          <h2>Del archivo de diseño al repositorio</h2>
+          <p>Define un flujo de publicación que conecte Figma con Style Dictionary y el repositorio del producto. Revisa los cambios antes de integrarlos, valida los formatos generados y registra las modificaciones importantes para que cada equipo pueda seguir su impacto.</p>
+          <p>La documentación debe incluir ejemplos de uso, estados de interfaz y criterios de accesibilidad. Así, un token no es solo una variable: también transmite una decisión y los límites de su aplicación.</p>
+          <h2>Conclusión</h2>
+          <p>Un sistema útil es fácil de encontrar, entender y mantener. Empieza con un vocabulario compartido, automatiza las tareas repetibles y revisa los tokens junto con el producto que ayudan a construir.</p>
+        </div>
+      </article>
+
+      <article class="article-detail" id="detail-interfaces-simples" data-source-card="interfaces-simples" hidden>
+        <a class="detail-back" href="#lista-articulos">← Volver a los artículos</a>
+        <div class="detail-image"></div>
+        <div class="detail-copy">
+          <div class="category-label">DISEÑO UI</div>
+          <h1>Cómo crear interfaces que se sienten simples</h1>
+          <p class="detail-meta">Aíko Del Valle · 08 oct · 7 min de lectura</p>
+          <p class="detail-intro">Principios prácticos para reducir el ruido visual y mejorar la jerarquía de una interfaz.</p>
+          <h2>La claridad empieza por el propósito</h2>
+          <p>Una interfaz sencilla no necesariamente tiene menos elementos: presenta primero aquello que ayuda a la persona a avanzar. Antes de quitar componentes, aclara la tarea principal y qué información necesita el usuario para completarla.</p>
+          <p>Organiza el contenido con títulos descriptivos, grupos reconocibles y acciones con nombres concretos. Cuando varias opciones compiten por atención, revisa si todas son necesarias en ese momento o si alguna puede aparecer cuando haga falta.</p>
+          <h2>Jerarquía y consistencia</h2>
+          <p>Contraste, tamaño, espacio y posición crean un orden visual. Usa estos recursos de forma consistente para que los controles principales destaquen y los detalles secundarios no interrumpan la lectura. Mantén patrones familiares en botones, formularios y mensajes.</p>
+          <p>Prueba el diseño con tareas reales: observa dónde dudan las personas y qué elementos pasan por alto. Esa evidencia permite reducir fricción sin eliminar información importante.</p>
+          <h2>Conclusión</h2>
+          <p>La simplicidad se siente cuando cada elemento tiene un motivo para estar ahí. Diseña alrededor de la tarea, explica las opciones con claridad y valida el resultado con quienes usarán la interfaz.</p>
+        </div>
+      </article>
+
+      <article class="article-detail" id="detail-investigar-antes" data-source-card="investigar-antes" hidden>
+        <a class="detail-back" href="#lista-articulos">← Volver a los artículos</a>
+        <div class="detail-image"></div>
+        <div class="detail-copy">
+          <div class="category-label">UX RESEARCH</div>
+          <h1>Investigar antes de diseñar: una guía práctica</h1>
+          <p class="detail-meta">Aíko Del Valle · 02 oct · 8 min de lectura</p>
+          <p class="detail-intro">Métodos sencillos para conocer a los usuarios antes de tomar decisiones de diseño.</p>
+          <h2>Empieza con una pregunta concreta</h2>
+          <p>La investigación no necesita iniciar con un estudio complejo. Define qué decisión de diseño tienes que tomar y qué necesitas aprender para tomarla con menos suposiciones. Una pregunta acotada ayuda a elegir un método proporcionado.</p>
+          <p>Explora el contexto actual: conversa con personas que realizan la tarea, revisa dudas recurrentes y observa los pasos que siguen. Entrevistas breves o pruebas de una tarea pueden descubrir barreras que un equipo no nota desde dentro.</p>
+          <h2>Convierte observaciones en decisiones</h2>
+          <p>Registra lo que viste y escuchaste con suficiente contexto para no confundir una cita con una interpretación. Después agrupa patrones, identifica necesidades y comparte los hallazgos con el equipo junto con sus límites.</p>
+          <p>Relaciona cada oportunidad con una hipótesis de diseño. Así, la investigación orienta el siguiente experimento y no se queda como una presentación separada del trabajo cotidiano.</p>
+          <h2>Conclusión</h2>
+          <p>Investigar antes de diseñar es abrir un espacio para escuchar. Una pregunta clara, un método sencillo y hallazgos compartidos pueden mejorar desde la primera decisión de producto.</p>
+        </div>
+      </article>
+
+      <article class="article-detail" id="detail-interfaces-editoriales" data-source-card="interfaces-editoriales" hidden>
+        <a class="detail-back" href="#lista-articulos">← Volver a los artículos</a>
+        <div class="detail-image"></div>
+        <div class="detail-copy">
+          <div class="category-label">TENDENCIAS</div>
+          <h1>El regreso de las interfaces editoriales</h1>
+          <p class="detail-meta">Aíko Del Valle · 27 sep · 6 min de lectura</p>
+          <p class="detail-intro">Por qué el diseño digital está recuperando composiciones inspiradas en revistas y publicaciones impresas.</p>
+          <h2>Diseñar para leer con atención</h2>
+          <p>Muchas experiencias digitales se organizan como listas uniformes. Frente a ese patrón, las composiciones editoriales usan ritmo, escala tipográfica y espacios amplios para dar a cada historia una presencia propia.</p>
+          <p>La inspiración impresa no significa copiar una página de revista. Se trata de adaptar recursos como titulares expresivos, columnas, pies de imagen y variaciones de ritmo a una pantalla que cambia de tamaño y permite interactuar.</p>
+          <h2>Un lenguaje visual con propósito</h2>
+          <p>La tipografía y la composición deben ayudar a navegar el contenido, no ocultarlo. Mantén contrastes accesibles, una jerarquía reconocible y patrones responsivos que reorganicen los elementos sin perder el hilo editorial.</p>
+          <p>En producto, estos recursos funcionan especialmente bien cuando la lectura forma parte de la tarea: publicaciones, portafolios, catálogos y páginas de contenido.</p>
+          <h2>Conclusión</h2>
+          <p>Las interfaces editoriales recuperan el placer de leer cuando la personalidad visual sirve a la claridad. El reto es equilibrar composición y utilidad en cada pantalla.</p>
+        </div>
+      </article>
+
+      <article class="article-detail" id="detail-color-contraste" data-source-card="color-contraste" hidden>
+        <a class="detail-back" href="#lista-articulos">← Volver a los artículos</a>
+        <div class="detail-image"></div>
+        <div class="detail-copy">
+          <div class="category-label">DISEÑO UI</div>
+          <h1>Color, contraste y accesibilidad</h1>
+          <p class="detail-meta">Aíko Del Valle · 20 sep · 5 min de lectura</p>
+          <p class="detail-intro">Cómo elegir colores que mantengan una interfaz atractiva sin sacrificar legibilidad.</p>
+          <h2>El color también comunica estado</h2>
+          <p>Una paleta puede expresar identidad, pero en una interfaz también informa. Los colores ayudan a distinguir acciones, avisos y estados; por eso conviene definirlos con roles claros y no depender de tonos parecidos para transmitir diferencias importantes.</p>
+          <p>Comprueba la legibilidad del texto sobre su fondo y presta atención al tamaño y al peso de la tipografía. Los textos pequeños suelen necesitar más contraste que los titulares grandes.</p>
+          <h2>Diseñar para distintas formas de percibir</h2>
+          <p>No comuniques un error, éxito o selección únicamente con color. Acompáñalo con una etiqueta, un icono o una forma que permita comprenderlo también sin distinguir los tonos.</p>
+          <p>Revisa combinaciones en sus estados reales —incluidos hover, foco y deshabilitado— y prueba las pantallas con herramientas de contraste y lectores diversos.</p>
+          <h2>Conclusión</h2>
+          <p>Una paleta accesible no limita la expresión visual: hace que el mensaje llegue a más personas. Define roles, valida combinaciones y acompaña el color con otras señales.</p>
+        </div>
+      </article>
+
+      <article class="article-detail" id="detail-entrevista-usuario" data-source-card="entrevista-usuario" hidden>
+        <a class="detail-back" href="#lista-articulos">← Volver a los artículos</a>
+        <div class="detail-image"></div>
+        <div class="detail-copy">
+          <div class="category-label">UX RESEARCH</div>
+          <h1>Las preguntas correctas para una entrevista de usuario</h1>
+          <p class="detail-meta">Aíko Del Valle · 13 sep · 6 min de lectura</p>
+          <p class="detail-intro">Una colección de preguntas para descubrir necesidades reales sin influir en las respuestas.</p>
+          <h2>Preguntar por experiencias, no por promesas</h2>
+          <p>Las personas describen mejor situaciones concretas que escenarios hipotéticos. En lugar de preguntar si usarían una función, invítalas a contar cómo resolvieron la última vez un problema parecido.</p>
+          <p>Prueba con preguntas abiertas como «¿Qué pasó después?» o «¿Qué fue lo más difícil?». Deja espacio para el silencio y anima a explicar el contexto, las decisiones y las alternativas que consideraron.</p>
+          <h2>Evita dirigir la conversación</h2>
+          <p>Presenta el objetivo de la sesión sin vender la solución y evita mencionar la respuesta que esperas. Si una pregunta incluye una valoración o una función específica, reformúlala para que la persona pueda responder con libertad.</p>
+          <p>Escucha y toma notas de acciones y frases literales. Al terminar, confirma lo que entendiste y deja abierta la posibilidad de corregir tu interpretación.</p>
+          <h2>Conclusión</h2>
+          <p>Una buena entrevista se construye escuchando. Preguntas neutrales sobre experiencias reales revelan necesidades con más profundidad que pedir opiniones rápidas sobre una idea.</p>
+        </div>
+      </article>
+
+      <article class="article-detail" id="detail-minimalismo-simplicidad" data-source-card="minimalismo-simplicidad" hidden>
+        <a class="detail-back" href="#lista-articulos">← Volver a los artículos</a>
+        <div class="detail-image"></div>
+        <div class="detail-copy">
+          <div class="category-label">TENDENCIAS</div>
+          <h1>¿Minimalismo o simplicidad?</h1>
+          <p class="detail-meta">Aíko Del Valle · 05 sep · 5 min de lectura</p>
+          <p class="detail-intro">Dos conceptos que suelen confundirse y cómo aplicarlos correctamente en productos digitales.</p>
+          <h2>Menos elementos no siempre es más claro</h2>
+          <p>El minimalismo suele asociarse con reducir elementos y ornamentación. La simplicidad, en cambio, describe cuánto esfuerzo necesita una persona para comprender y completar una tarea.</p>
+          <p>Una pantalla vacía puede parecer minimalista y ser difícil de usar si oculta acciones o no explica qué hacer. Una interfaz con más información puede sentirse sencilla cuando la organiza en el momento adecuado.</p>
+          <h2>Decidir qué simplificar</h2>
+          <p>Observa los objetivos de las personas y elimina pasos que no aportan valor. Explica las opciones necesarias con palabras directas y revela detalles adicionales cuando sean relevantes, sin hacerlos inaccesibles.</p>
+          <p>Prueba primero la comprensión y la facilidad de completar la tarea; después pule la composición visual para que acompañe esa experiencia.</p>
+          <h2>Conclusión</h2>
+          <p>El minimalismo es un lenguaje estético; la simplicidad es una cualidad de uso. Pueden convivir cuando las decisiones visuales hacen el producto más fácil de entender.</p>
+        </div>
+      </article>
+
+      <article class="article-detail" id="detail-buena-tipografia" data-source-card="buena-tipografia" hidden>
+        <a class="detail-back" href="#lista-articulos">← Volver a los artículos</a>
+        <div class="detail-image"></div>
+        <div class="detail-copy">
+          <div class="category-label">DISEÑO UI</div>
+          <h1>El valor de una buena tipografía</h1>
+          <p class="detail-meta">Aíko Del Valle · 29 ago · 7 min de lectura</p>
+          <p class="detail-intro">Cómo la elección tipográfica puede cambiar completamente la percepción de una interfaz.</p>
+          <h2>La voz de la interfaz</h2>
+          <p>La tipografía transmite tono antes de que terminemos de leer. Sus formas, proporciones y ritmo ayudan a que un producto se sienta cercano, técnico, sereno o expresivo, además de construir una jerarquía entre títulos y texto.</p>
+          <p>Elige familias que funcionen bien en los tamaños y dispositivos reales del proyecto. Una tipografía atractiva en un titular también debe mantener su legibilidad en etiquetas, formularios y párrafos.</p>
+          <h2>Un sistema tipográfico coherente</h2>
+          <p>Define pocos estilos con propósitos claros y combina tamaño, interlineado y peso con consistencia. Ajusta el ancho de línea y el espacio entre bloques para que la lectura sea cómoda en pantallas estrechas y amplias.</p>
+          <p>Evita depender solo del tamaño o del color para diferenciar contenido. Los pesos, el orden de lectura y los encabezados semánticos también aportan estructura.</p>
+          <h2>Conclusión</h2>
+          <p>Una buena tipografía equilibra personalidad y legibilidad. Cuando cada estilo tiene una función, la interfaz se comunica con una voz reconocible y fácil de seguir.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="newsletter-card archive-newsletter" aria-labelledby="articles-newsletter-title">
+      <div class="newsletter-copy">
+        <div class="newsletter-heading">
+          <span class="newsletter-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3.4" y="5.7" width="17.2" height="12.6" rx="2.6" fill="none" stroke="currentColor" stroke-width="1.7"></rect><path d="m5.2 8.2 6.8 5.2 6.8-5.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </span>
+          <h2 id="articles-newsletter-title">UI Talks Dispatch</h2>
+        </div>
+        <p>Reflexiones semanales sobre arquitectura de información, diseño de interacción y tecnología.</p>
+      </div>
+      <form class="newsletter-form" novalidate>
+        <label class="visually-hidden" for="articles-newsletter-email">Tu correo electrónico</label>
+        <input id="articles-newsletter-email" type="email" name="email" placeholder="tu@correo.com" autocomplete="email" required>
+        <button type="submit">Suscribirme</button>
+      </form>
+      <p class="newsletter-message" role="status" aria-live="polite"></p>
+    </section>
+  </div>
+</main>
+```
